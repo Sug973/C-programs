@@ -2,13 +2,15 @@
 #include<conio.h>
 void main()
 {
-    int a[10],i;
-    printf("Enter array element: ");
-    for(i=0;i<10;i++)
+    int n;
+    scanf("%d",&n);
+    int a[n],i;
+    printf("Enter %d array element: ",n);
+    for(i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
     }
-    for(i=0;i<10;i++)
+    for(i=0;i<n;i++)
     {
         if(a[i]%2==0)
         {
